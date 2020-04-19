@@ -12,14 +12,13 @@ class Scraper
         location: student.css("p.student-location").text,
         profile_url: "http://students.learn.co/" + student.css("a").attributes("href")
       }
-      students_hash << hash 
+      students_hash << hash
     end
     students_hash
   end
 
   def self.scrape_profile_page(profile_url)
-    
+
   end
 
 end
-
