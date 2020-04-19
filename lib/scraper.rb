@@ -14,7 +14,7 @@ class Scraper
           profile_url: "http://students.learn.co/" + student.css("a").attribute("href")
         }
         students_hash << hash
-      end
+      
       students_hash
     end
 
